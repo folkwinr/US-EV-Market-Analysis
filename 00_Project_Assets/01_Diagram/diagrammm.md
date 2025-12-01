@@ -1,22 +1,22 @@
+```text
 EV-Analysis/
 │
 ├── README.md
+│
+├── .gitattributes
 │
 ├── 00_Project_Assets/
 │   ├── 01_Diagrams/
 │   │   └── pipeline_diagram.png
 │   ├── 02_Source_Documents/
-│   │   └── data_dictionary.md
-│   ├── 03_Images/
-│   │   └── ...
-│   └── 04_Presentation/
-│       └── ...
+│       └── data_dictionary.md
 │
 ├── 01_Data/
 │   ├── raw_data/
 │   └── cleaned_data/
 │
 ├── 02_SQL_Pipeline/
+│   │
 │   ├── 01_Data_Inspection/
 │   │   ├── preview_top_rows.sql
 │   │   ├── count_rows.sql
@@ -70,3 +70,4 @@ EV-Analysis/
 └── 05_Final_Report/
     ├── final_report.md
     └── executive_summary.md
+```
