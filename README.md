@@ -261,6 +261,22 @@ Some highlights:
 
 ---
 
+### Example – State Infrastructure Priority Segments
+
+| State            | EV %   | Segment                         | Description                                      |
+|------------------|-------:|---------------------------------|--------------------------------------------------|
+| California       | 3.41%  | High Adoption, High Volume      | Mature EV Market – strong demand & strong volume |
+| District of Col. | 2.60%  | High Adoption, Low Volume       | Emerging Market – high adoption, small base      |
+| Hawaii           | 2.38%  | High Adoption, Low Volume       | Emerging Market – high adoption, small base      |
+| Washington       | 2.23%  | High Adoption, High Volume      | Mature EV Market – strong demand & strong volume |
+| Nevada           | 1.85%  | High Adoption, Low Volume       | Emerging Market – high adoption, small base      |
+| New Jersey       | 1.84%  | High Adoption, High Volume      | Mature EV Market – strong demand & strong volume |
+| Florida          | 1.38%  | High Adoption, High Volume      | Mature EV Market – strong demand & strong volume |
+| Texas            | 0.82%  | High Volume, Low Adoption       | Infrastructure Priority – large fleet, low EV %  |
+| North Carolina   | 0.77%  | High Volume, Low Adoption       | Infrastructure Priority – large fleet, low EV %  |
+
+---
+
 ## 7. How to Run the Project
 
 1. Set up SQL Server:
