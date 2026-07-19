@@ -12,6 +12,55 @@ The project aims to answer:
 
 ---
 
+# 📦 Data Source
+
+The dataset used in this project was obtained through the AnalystBuilder project:
+
+**Analyzing U.S. Electric Vehicle Market Share**
+
+https://www.analystbuilder.com/projects/analyzing-us-electric-vehicle-market-share-ICmbg
+
+The underlying data corresponds to the **2023 Light-Duty Vehicle Registration Counts by State and Fuel Type**, published by the U.S. Department of Energy's Alternative Fuels Data Center (AFDC).
+
+## Original Data Provider
+
+- **Publisher:** U.S. Department of Energy – Alternative Fuels Data Center
+- **Dataset:** 2023 Light-Duty Vehicle Registration Counts by State and Fuel Type
+- **Reference date:** December 31, 2023
+- **Geographic coverage:** U.S. states and the District of Columbia
+- **Unit of analysis:** Approximate number of registered light-duty vehicles
+- **Granularity:** One record per state or district
+
+### Data Lineage
+
+The registration counts were derived by the National Laboratory of the Rockies using data supplied by Experian Information Solutions. Values are rounded to the nearest 100 vehicles.
+
+Fuel classifications are based on VIN information and may not reflect aftermarket vehicle conversions to alternative fuels or power sources.
+
+### Important Scope Note
+
+This dataset represents the estimated stock of registered light-duty vehicles through the end of 2023.
+
+It does **not** represent:
+
+- Annual vehicle sales
+- New vehicle registrations during 2023 only
+- Medium- or heavy-duty vehicle fleets
+- Charging-station availability
+- Historical growth measured within this project
+
+Therefore, this project analyzes the geographic distribution and relative penetration of vehicle fuel types as of December 31, 2023. It should not be interpreted as an analysis of vehicle sales or time-series market growth.
+
+### Source Links
+
+**AnalystBuilder project**
+
+https://www.analystbuilder.com/projects/analyzing-us-electric-vehicle-market-share-ICmbg
+
+**Original AFDC dataset**
+
+https://afdc.energy.gov/vehicle-registration?year=2023
+
 ## 1. Business Context
 
 You are a data analyst in a transportation research group.  
