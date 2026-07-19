@@ -12,7 +12,7 @@ The project aims to answer:
 
 ---
 
-## 📦 Data Source
+##  Data Source
 
 The analysis is based on the **2023 Light-Duty Vehicle Registration Counts by State and Fuel Type** dataset published by the **U.S. Department of Energy's Alternative Fuels Data Center (AFDC).**
 
