@@ -8,14 +8,17 @@ transformations, indicators, scoring methods, and visualization logic.
 ## 1. Data Source & Granularity
 
 - Source table: `Vehicle_Data`
-- Granularity: One row per U.S. state (including D.C.)
+- Reference date: December 31, 2023
+- Geographic coverage: U.S. states and the District of Columbia
+- Granularity: One row per U.S. state
+- Unit: Number of registered light-duty vehicles
 - Variables: Counts of registered vehicles by fuel type:
   - electric, phev, hev
   - gasoline, diesel
   - biodiesel, e85, cng, propane, hydrogen, methanol
   - unknown_fuel
 
-This dataset represents a current snapshot of the U.S. vehicle fleet.
+This dataset shows the registered U.S. light-duty vehicle fleet as of December 31, 2023.
 
 ---
 
@@ -241,7 +244,7 @@ Core indicators:
 - fuel diversity index (FDI)
 - state-level market contribution metrics
 
-These help interpret EV growth in the context of the existing fossil-fuel fleet.
+These help explain EV adoption in the context of the existing gasoline and diesel vehicle fleet.
 
 ---
 
@@ -307,16 +310,13 @@ Most heavy calculations are done in SQL; Tableau primarily focuses on:
 
 ## 7. Assumptions & Limitations
 
-- Data is a single snapshot in time (no time-series or trend lines).
-- Charging infrastructure counts (fast chargers, stations) are not included;
-  infrastructure recommendations are inferred from EV adoption and potential.
-- Alternative fuel values are sometimes small; these fuels are treated as niche
-  and interpreted cautiously.
-- Analysis operates at state level; intra-state variation (urban vs rural)
-  is outside the scope.
+- The dataset shows registered vehicle stock, not annual vehicle sales.
+- The data represents one point in time, so it does not show yearly growth.
+- Vehicle counts are rounded to the nearest 100 vehicles.
+- Fuel classifications may not include aftermarket vehicle conversions.
 
-Despite these limitations, the methodology provides a robust basis for:
+Despite these limitations, the methodology provides a useful basis for:
 
-- understanding current EV adoption patterns
+- understanding EV adoption patterns
 - comparing regions and states
-- supporting high-level infrastructure and policy decisions.
+- supporting high-level infrastructure and policy analysis
