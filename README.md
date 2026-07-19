@@ -25,23 +25,23 @@ The analysis is based on the **2023 Light-Duty Vehicle Registration Counts by St
 - **Unit of Analysis:** Approximate number of registered light-duty vehicles
 - **Granularity:** One record per state or district
 
-### Data Lineage
+### Data Notes
 
-Vehicle registration estimates are based on data provided by **Experian Information Solutions** and are rounded to the nearest 100 vehicles. Fuel types are classified using vehicle identification number (VIN) information.
+The vehicle registration data comes from **Experian Information Solutions**. The numbers are rounded to the nearest 100 vehicles. Fuel types are identified using vehicle identification number (VIN) data.
 
 ### Scope
 
-This dataset represents the estimated stock of registered light-duty vehicles as of **December 31, 2023**.
+This dataset shows the estimated number of registered light-duty vehicles in each U.S. state as of **December 31, 2023**.
 
-It does **not** represent:
+It does **not** include:
 
 - Annual vehicle sales
-- New vehicle registrations during 2023 only
-- Medium- or heavy-duty vehicle fleets
-- Charging station availability
-- Historical growth over time
+- New vehicle registrations in 2023 only
+- Medium- or heavy-duty vehicles
+- Charging station data
+- Changes over time
 
-Therefore, this project analyzes the geographic distribution and relative penetration of vehicle fuel types at the end of 2023. The results should not be interpreted as an analysis of vehicle sales or market growth.
+This project analyzes the distribution of registered vehicles by fuel type across U.S. states. It is not a study of vehicle sales or market growth.
 
 ### Source
 
