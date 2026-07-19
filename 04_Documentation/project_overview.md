@@ -16,7 +16,7 @@ registration counts for multiple fuel types:
 A government transportation board and related industry stakeholders are
 interested in:
 
-- How quickly EVs are gaining market share
+- How EV market share differs across states
 - Where adoption is geographically concentrated
 - How EVs compare to traditional fuels (gasoline & diesel)
 - What this means for **infrastructure planning** and **policy decisions**
@@ -35,8 +35,7 @@ The main goals of the project are:
    gasoline/diesel, both in absolute counts and as percentages of the total fleet.
 
 2. **Identify leaders and laggards**  
-   Rank states by EV adoption rate and highlight those leading the transition
-   vs. those falling behind.
+   Rank states by EV adoption rate and highlight states with higher or lower EV penetration.
 
 3. **Assess alternative fuel relevance**  
    Distinguish between alternative fuels with meaningful presence (e.g.,
