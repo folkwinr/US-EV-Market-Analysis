@@ -332,7 +332,7 @@ Some highlights:
 
 ## 9. Future Improvements
 
-- Add time-series data to study EV adoption trends over time  
+- Add multi-year vehicle registration data to analyze registration trends over time
 - Incorporate charging station locations and capacity  
 - Join with grid, pricing and emissions data for deeper planning insights  
 - Extend the framework to other countries or sub-state geographies  
