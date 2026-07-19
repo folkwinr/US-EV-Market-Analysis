@@ -12,7 +12,7 @@ The project aims to answer:
 
 ---
 
-# 📦 Data Source
+## 📦 Data Source
 
 The dataset used in this project was obtained through the AnalystBuilder project:
 
@@ -22,7 +22,7 @@ https://www.analystbuilder.com/projects/analyzing-us-electric-vehicle-market-sha
 
 The underlying data corresponds to the **2023 Light-Duty Vehicle Registration Counts by State and Fuel Type**, published by the U.S. Department of Energy's Alternative Fuels Data Center (AFDC).
 
-## Original Data Provider
+### Original Data Provider
 
 - **Publisher:** U.S. Department of Energy – Alternative Fuels Data Center
 - **Dataset:** 2023 Light-Duty Vehicle Registration Counts by State and Fuel Type
