@@ -12,7 +12,7 @@ The project aims to answer:
 
 ---
 
-##  1- Data Source
+##  Data Source
 
 The analysis is based on the **2023 Light-Duty Vehicle Registration Counts by State and Fuel Type** dataset published by the **U.S. Department of Energy's Alternative Fuels Data Center (AFDC).**
 
@@ -48,6 +48,27 @@ This project analyzes the distribution of registered vehicles by fuel type acros
 U.S. Department of Energy – Alternative Fuels Data Center (AFDC)
 
 https://afdc.energy.gov/vehicle-registration?year=2023
+
+---
+
+## 1. Business Context
+
+This project analyzes the distribution of registered light-duty vehicles across U.S. states by fuel type to support better understanding of vehicle electrification patterns.
+
+The analysis focuses on:
+
+- The share of EVs, PHEVs, HEVs, gasoline, and diesel vehicles in each state
+- Regional differences in vehicle electrification
+- States with high EV registration levels and states with potential future EV infrastructure needs
+- The role of alternative fuels such as biodiesel, E85, CNG, propane, hydrogen, and methanol
+
+The goal is to provide a data-driven view of U.S. vehicle fuel composition and highlight regional patterns that may support transportation planning.
+
+This repository contains:
+
+- A modular SQL pipeline for data cleaning, transformation, and analysis
+- Tableau dashboards for interactive data visualization
+- Project documentation and a final report summarizing the key findings
 
 ## 2. Tech Stack
 
