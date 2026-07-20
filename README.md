@@ -1,4 +1,4 @@
-# ⚡ U.S. Electric Vehicle (EV) Market Analysis
+#  U.S. Electric Vehicle (EV) Market Analysis
 
 End-to-end analytics project using SQL Server and Tableau to explore how
 electric and alternative fuel vehicles are distributed across the United States.
